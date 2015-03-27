@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'CentraleSans Hairline';
+  src: url('CentraleSans-Hairline.eot'); /* IE9 Compat Modes */
+  src: url('CentraleSans-Hairline.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CentraleSans-Hairline.woff') format('woff'), /* Modern Browsers */
+       url('CentraleSans-Hairline.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CentraleSans-Hairline.svg#3e8f9638cef28de44c5f0ef5a2ac1f86') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

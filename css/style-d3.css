@@ -1,0 +1,79 @@
+svg {
+    font-family:CentraleSans;
+    font-weight:200;
+    font-size: 14px;
+    color:#fff;
+    width:100%;
+    height:100%;
+    shape-rendering:auto;
+}
+
+.geo-area-path{
+    stroke:#fff;
+    stroke-width:0.1;
+    stroke-opacity:0.25;
+}
+
+.time-label-arc {
+    fill:#fff;
+
+}
+.locations-domain-line{
+     fill:none;
+    stroke:#fff;
+    stroke-width:0.5;
+
+}
+
+.connect-lines-path{
+    fill:none;
+    stroke:#fff;
+    stroke-width:1;
+}
+
+
+.dots-graph_progress_calories_hours_goal{
+    stroke:#fff;
+    stroke-width:1px;
+    stroke-opacity:0.35;
+    /*shape-rendering:crispEdges;*/
+}
+
+.dots-locations-graph_locations-activities{
+    stroke-width:0.5px;
+    stroke:#fff;
+
+}
+
+
+.tooltip {
+    position: absolute;
+    background: #454545;
+    z-index:1000;
+    opacity:0;
+    font-family:CentraleSans;
+    font-weight:200;
+    font-size: 14px;
+    color:white;          
+    padding: 12px; 
+    border: 0px;      
+    border-radius: 4px;           
+    pointer-events: none;
+}
+
+.tooltip-append {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(69, 69, 69, 0);
+    border-top-color: #454545;
+    border-width: 12px;
+    margin-left: -12px;
+}
+
+

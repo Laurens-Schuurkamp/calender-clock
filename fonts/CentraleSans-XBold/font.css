@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'CentraleSans XBold';
+  src: url('CentraleSans-XBold.eot'); /* IE9 Compat Modes */
+  src: url('CentraleSans-XBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CentraleSans-XBold.woff') format('woff'), /* Modern Browsers */
+       url('CentraleSans-XBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CentraleSans-XBold.svg#9a864760680d346e5852a22d8d46f391') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+

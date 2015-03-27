@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>Calender Clock GLS</title>
+    <link media="all" rel="stylesheet" href="css/style.css">
+    <link media="all" rel="stylesheet" href="css/style-d3.css">
+    <link rel="stylesheet" href="css/centrale-sans.css" type="text/css" />
+
+
+    <!--d3.v3.min.js the graph library-->
+    <script type="text/javascript" src="js/libs/d3/d3.v353.min.js"></script>
+    
+    <!--colorbrewer.js colorcoding libray, it's just a array with hex colors-->
+    <script type="text/javascript" src="colorbrewer/colorbrewer.js"></script>
+    <script type="text/javascript" src="js/gls/utils-d3.js"></script>
+    <script type="text/javascript" src="js/gls/init.js"></script>
+    <script type="text/javascript" src="js/gls/dataRepository.js"></script>
+    <script type="text/javascript" src="js/gls/clock.js"></script>
+
+    
+    <!--favicon-->
+
+
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div id="content-stage">
+        <div id="menu-header"></div>
+        <div id="svg-container"></div>
+    </div> 
+
+    <audio controls autoplay loop>
+      <source src="sounds/otis.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+</div>
+
+<script type="text/javascript">
+
+        
+        var execute = function () { 
+            init();   
+        };
+
+        if ( !!(window.addEventListener) )
+        window.addEventListener("DOMContentLoaded", execute)
+        else // MSIE
+
+        window.attachEvent("onload", execute)
+        
+    </script>   
+
+
+</body>
+</html>
